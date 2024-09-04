@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C2DCFD;
+    padding:15rem 5rem;
+    
+}
+
+body, button, input {
+    font-family: "DM Sans", sans-serif;
+    font-size: var(--button-number-size);
+}
+
+:root {
+    font-size: 62.5%;
+    --font-h1: clamp(1.5rem, 1rem + 3vw, 2.5rem);
+    --font-p: clamp(1rem, 1rem + 2vw, 1.4rem);
+    --button-number-size: clamp(1rem, 1rem + 3vw, 1.7rem)
+}
+
+main {
+    max-width:43rem;
+    height: 26rem;
+    background-color:white;
+    margin:auto;
+    padding: 0 2rem 0 2rem;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--font-h1);
+    color:rgb(54, 54, 54);
+}
+
+p {
+    font-size: var(--font-p);
+    margin-top: 1rem ;
+    color:rgb(106, 106, 106);
+}
+
+.screens {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+form {
+    margin-top: 3rem;
+    display:flex;
+    height: 6rem;
+    justify-content: center;
+    
+}
+
+#input-number {
+    max-width:5rem;
+    background-color:#DFE2E9;
+    border:none;
+    padding-left: 1.5rem;
+    border-radius: 4px 0px 0px 4px;
+    
+}
+
+#btn-try, #btn-play-again {
+    background-color: #665cec;
+    padding: 0 1.5rem;
+    color:white;
+    border:none;
+    border-radius: 0px 4px 4px 0px;
+}
+
+#btn-try:hover, #btn-play-again:hover {
+    background-color:#514ab6;
+    cursor:pointer;
+}
+
+main div:nth-child(2) form {
+    margin-top: 4rem;
+}
+
+#btn-play-again {
+    border-radius: 4px;
+
+}
+
+.hide {
+    display:none;
+}
+
+#number-limit {
+    max-width: 4rem;
+    margin-left:.5rem;
+}
