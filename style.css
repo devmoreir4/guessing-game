@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:wght@100..900&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -7,8 +8,7 @@
 
 body {
     background-color: #C2DCFD;
-    padding:15rem 5rem;
-    
+    padding: 15rem 5rem;
 }
 
 body, button, input {
@@ -32,7 +32,7 @@ main {
     border-radius: 4px;
 }
 
-h1 {
+h1, h2 {
     font-family: "Montserrat", sans-serif;
     font-size: var(--font-h1);
     color:rgb(54, 54, 54);
@@ -66,7 +66,7 @@ form {
     
 }
 
-#btn-try, #btn-play-again {
+#button-try, #button-again {
     background-color: #665cec;
     padding: 0 1.5rem;
     color:white;
@@ -74,7 +74,7 @@ form {
     border-radius: 0px 4px 4px 0px;
 }
 
-#btn-try:hover, #btn-play-again:hover {
+#button-try:hover, #button-again:hover {
     background-color:#514ab6;
     cursor:pointer;
 }
@@ -83,7 +83,7 @@ main div:nth-child(2) form {
     margin-top: 4rem;
 }
 
-#btn-play-again {
+#button-again {
     border-radius: 4px;
 
 }
@@ -92,7 +92,11 @@ main div:nth-child(2) form {
     display:none;
 }
 
-#number-limit {
+#limit {
     max-width: 4rem;
     margin-left:.5rem;
+}
+
+#error {
+    margin-top: .8rem;
 }
